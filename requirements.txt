@@ -1,5 +1,5 @@
 telethon==1.36.0
-pyrogram==2.0.606
+pyrogram==2.0.106
 aiofile==3.8.1
 pythondialog==3.5.3
 gitpython==3.1.30
