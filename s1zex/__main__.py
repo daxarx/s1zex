@@ -46,7 +46,7 @@ else:
         try:
             import telethon
 
-            if tuple(map(int, telethon.__version__.split("."))) < (2, 0, 4):
+            if tuple(map(int, telethon.__version__.split("."))) < (1, 36, 0):
                 raise ImportError
         except ImportError:
             print("🔄 Installing telethon...")
@@ -71,7 +71,7 @@ else:
         try:
             import pyrogram
 
-            if tuple(map(int, pyrogram.__version__.split("."))) < (2, 0, 103):
+            if tuple(map(int, pyrogram.__version__.split("."))) < (2, 0, 106):
                 raise ImportError
         except ImportError:
             print("🔄 Installing pyrogram...")
